@@ -72,12 +72,14 @@
    }
 
    .btn-3d-1::before {
-       position: absolute;
-       display: block;
-       content: "";
-       height: 0;
-       width: 0;
+       background-color: yellow;
+        position: absolute;
+        display: block;
+        content: "";
+        height: 0;
+        width: 0;
 
-       border: solid 6px transparent;
-       border-right: solid 6px hsl(16, 100% 30%);
+
+        border: solid 6px transparent;
+        border-right: solid 6px hsl(16, 100% 30%);
    }
